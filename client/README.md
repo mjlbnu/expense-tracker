@@ -4,4 +4,4 @@ To create a functional componnent with _ES7 React/Redux/GraphQL/React-Native sni
 
 > RAFC
 
-31:55
+40:41
