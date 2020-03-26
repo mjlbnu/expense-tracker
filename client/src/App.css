@@ -72,6 +72,19 @@ h4 {
   color: #c0392b;
 }
 
+.balance {
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+.balance.plus {
+  color: #2ecc71;
+}
+
+.balance.minus {
+  color: #c0392b;
+}
+
 label {
   display: inline-block;
   margin: 10px 0;
