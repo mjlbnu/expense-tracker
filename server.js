@@ -1,5 +1,6 @@
 const path = require('path');
 const express = require('express');
+const cors = require('cors');
 const dotenv = require('dotenv');
 const colors = require('colors');
 const morgan = require('morgan');
@@ -12,6 +13,8 @@ connectDB();
 const transactions = require('./routes/transactions');
 
 const app = express();
+
+app.use(cors());
 
 // allow to use bodyparser
 app.use(express.json());
