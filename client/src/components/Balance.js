@@ -10,7 +10,7 @@ export const Balance = () => {
 
   return (
     <>
-      <h4>Your Balance</h4>
+      <h4>Seu Saldo</h4>
       <h1 className={total < 0 ? 'balance minus' : 'balance plus'}>
         ${numberWithCommas(Math.abs(total).toFixed(2))}
       </h1>

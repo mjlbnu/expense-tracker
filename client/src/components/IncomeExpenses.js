@@ -20,11 +20,11 @@ export const IncomeExpenses = () => {
   return (
     <div className="inc-exp-container">
       <div>
-        <h4>Income</h4>
+        <h4>Renda</h4>
         <p className="money plus">${numberWithCommas(income)}</p>
       </div>
       <div>
-        <h4>Expense</h4>
+        <h4>Despesa</h4>
         <p className="money minus">${numberWithCommas(expense)}</p>
       </div>
     </div>
